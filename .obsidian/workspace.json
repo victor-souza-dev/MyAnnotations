@@ -11,8 +11,12 @@
             "id": "97d9a5880b4dde42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Development/DevOps/Containers/Kubernetes/Commands.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/TS/Array.isArray.md",
+                "file": "Development/DevOps/Containers/Kubernetes/Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/TS/Array.isArray.md",
+                "file": "Development/DevOps/Containers/Kubernetes/Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/TS/Array.isArray.md"
+                "file": "Development/DevOps/Containers/Kubernetes/Commands.md"
               }
             }
           }
@@ -142,8 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6ec74c0a1b7db762",
+  "active": "97d9a5880b4dde42",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Development/DevOps/Containers/Kubernetes/Commands.md",
+    "README.md",
     "Development/TS/Typeof.md",
     "Development/TS/Array.isArray.md",
     "Development/TS/Back",
