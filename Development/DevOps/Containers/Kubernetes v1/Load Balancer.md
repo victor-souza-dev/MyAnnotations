@@ -1,0 +1,14 @@
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+ name: svc-pod-1-loadbalancer
+spec:
+ type: LoadBalancer
+ ports:
+ - port: 80
+ - nodePort: 30000 
+ selector:
+  app: primeiro-pod
+```
