@@ -1,8 +1,5 @@
----
-aliases:
----
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -26,3 +23,5 @@ spec:
   - configMapRef:
      name: sistema-configmap
 ```
+
+#Kubernetes 
