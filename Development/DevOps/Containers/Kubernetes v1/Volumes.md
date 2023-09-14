@@ -1,6 +1,6 @@
 #### Hostpath
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -23,7 +23,7 @@ spec:
 
 Volume storage in configured the Google Cloud:
 
-###### PV (Persistent Volume)
+>  PV (Persistent Volume)
 
 ```yaml
 apiVersion: v1
@@ -39,7 +39,7 @@ spec:
     pdName: my-data-disk
 ```
 
-###### PVC (Persistent Volume Claim)
+> PVC (Persistent Volume Claim)
 
 ```yaml
 apiVersion: v1
@@ -55,7 +55,7 @@ spec:
   storageClassName: standard
 ```
 
-###### Access PV
+> Access PV
 
 ```yaml
 apiVersion: v1
@@ -76,8 +76,13 @@ spec:
 ```
 
 
-#### SC (Storage Class)
+> SC (Storage Class)
 
-```
-
+```yaml
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+ name: slow
+provisioner: kubernetes.io/gce-pd
+parameters:
 ```
